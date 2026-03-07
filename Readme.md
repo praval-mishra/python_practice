@@ -1,0 +1,1 @@
+ctrl+/   used to comment out the no of line 
