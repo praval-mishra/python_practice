@@ -1,5 +1,5 @@
 class Employee:
-    rais_amt=1.04
+    raise_amt=1.04
     def __init__(self,first,last,pay):
         self.first=first
         self.last=last
@@ -9,7 +9,7 @@ class Employee:
     def FullName(self):
         return f'{self.first} {self.last}'
     def Apply_raise (self):
-        pay=int(self.payself.raise_amt)
+        pay=int(self.pay*self.raise_amt)
         
 class Developers(Employee):
     raise_amt=1.10
@@ -27,6 +27,8 @@ print(emp1.FullName())
 #  the entire Python language.
 # print(help(Developers))
 print(emp2.progLang)
+print(emp2.Apply_raise())
 
 class manager(Employee):
     pass
+ 
