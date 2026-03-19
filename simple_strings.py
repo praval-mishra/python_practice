@@ -21,4 +21,6 @@ print(clean_phone)
 #  you can chain multiple .replace() calls together
 #  because each call returns a new string.
 
+print(dir(name))
 
+print(help(str))
