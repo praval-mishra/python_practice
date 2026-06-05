@@ -1,0 +1,7 @@
+a=int(input('Enter a number :'))
+rem1=a%3
+rem2=a%5
+if(rem1 and 
+   rem2==0):
+    print("the number ",a,'is divisible by both 3 N 5')
+

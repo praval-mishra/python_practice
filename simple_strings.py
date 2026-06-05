@@ -5,6 +5,7 @@ print(len(name))#10
 print(name[5])#t
 print(name[:8])#Albert d
 #need to learn more about slicing 
+
 print(name.upper())
 print(name.count('das'))#1 Also remember you should give the steing inside '' as a parameter i count method 
 print(name.count('a'))#1 its case sensitive 
