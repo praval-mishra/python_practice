@@ -7,3 +7,14 @@ print(my_list[-10:])
 print(my_list[-3:-7])# here the slicin g always happens in the farward direction 
 #to reverse printing 
 print(my_list[-1:-8:-1])
+print(my_list[-1:-8:-2])  
+print(my_list[1:-1])
+print(my_list[:])
+print(my_list[:9])
+print(my_list[2:-1:-1])# That’s impossible, because index 2 is before index 9 in the list.
+print(my_list[::-1]) 
+# reverse the url
+sample='chatgpt.com'
+print(sample[::-1]) 
+#get the top level domain 
+print(sample[-4: ])

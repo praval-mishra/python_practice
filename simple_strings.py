@@ -13,6 +13,11 @@ print(name.count('a'))#1 its case sensitive
 new_name=name.replace('das','dan')
 print(new_name)#Albert dan
 
+# string formatting 
+greet='hello'
+print(f'{greet},{name}. welcome!')
+
+
 
 phone = "(555) 123-4567"
 clean_phone = phone.replace("(", "").replace(")", "").replace("-", "").replace(" ", "")
