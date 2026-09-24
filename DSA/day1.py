@@ -11,3 +11,12 @@
 #     print(x,"is even number ")
 # else :
 #     print(x,"is not a even number")
+
+#Problem 3 — Largest of Three Numbers
+a,b,c=[int(x) for x in (input("enter the three no.s")).split()]
+if a>=b and a>=c:
+    print(a)
+elif b>=a and b>=c :
+    print(b)
+else :
+    print(c)
