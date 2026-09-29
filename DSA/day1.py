@@ -173,9 +173,58 @@
 #     gcd=i
 # lcm=(n*m)//gcd
 # print("gcd is :",gcd,"\nlcm is :",lcm)  
-        
+
+#-------------------------------------------------------------------
+# problem 14 Multiplication Table  
+# n=int(input("enter the table you want :"))
+# rng=int(input("enter the range you wantt up to :"))
+# for i in  range(1,rng+1):
+#   print(n,"X",i,"=",n*i)    
+#-----------------------------------------------------------
+
+ #Problem 15 — Count the Number of Digits
+# n=int (input("enter the number :"))
+# count=0
+# if n==0:
+#         print(1)
+# else :
+#         while n>0:
+#          count+=1
+#          n=n//10
+# print(count)
+#----------------------------------------------------------------------------
 
 
+##Problem 16 — Power Without **
+# b = int(input("Enter the base value: "))
+# e = int(input("Enter the exponent: "))
+# val = 1
+
+# for i in range(e): 
+#     val = val * b
+
+# print("Result:", val)
+#------------------------------------------------------------------------------
+# Problem 17 — FizzBuzz
+# Write a Python program that prints the numbers from 1 to n, but with these rules:
+# - If the number is divisible by 3, print "Fizz".
+# - If the number is divisible by 5, print "Buzz".
+# - If the number is divisible by both 3 and 5, print "FizzBuzz".
+# - Otherwise, print the number itself.
+
+
+# n = int(input("Enter the value: "))
+# for i in range(1,n+1):
+#   if i%15==0:
+#       print("fizzBuzz")
+#   elif i%3==0 and i%5!=0:
+#      print("fizz")
+#   elif i%5==0 and i%3!=0:
+#     print("buzz")
+  
+#   else:
+#     print(i)
+#-------------------------------------------------------
 
 
   
