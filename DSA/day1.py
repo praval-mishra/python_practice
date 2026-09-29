@@ -133,5 +133,49 @@
 #   print("It is armstrong no.")
 # else :
 #   print ("not an armstrong no.")
+#-----------------------------------------------------
+
+
+
+#Problem 11 — Prime Number Check
+# n= int(input("enter the Number :"))
+# if n<2:
+#     print("not a prime")
+# else:
+    
+#     for i in range(2,int (n**0.5)+1) :
+#         if n%i==0:
+#             print("is not a prime:}")
+#             break
+#     else :
+#             print("is a prime")
+
+#-------------------------------------------------------
+#problem 12 :All Prime Numbers in a Range
+# start=int(input("enter the starting of the range :"))
+# end=int(input("eneter the end of range :"))
+# for i in range (start,end+1):
+#     if i<2 :
+#         continue 
+#     for n in range (2,int(i**0.5)+1):
+#         if i%n==0:
+#             break
+#     else:
+#         print(i,end=" ")
+#--------------------------------------------------------------------
+# problem :13 GCD and LCM
+
+# n=int(input("enter the first number :"))
+# m=int(input("enter the second number :"))
+# gcd=1
+# for i in range (1,min(n,m)+1):
+#   if n%i==0 and m%i==0:
+#     gcd=i
+# lcm=(n*m)//gcd
+# print("gcd is :",gcd,"\nlcm is :",lcm)  
+        
+
+
+
 
   
