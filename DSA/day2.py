@@ -14,7 +14,7 @@
 #   print('palindrome')
 # else : print('not a palindorme ')
 
-###############
+########################################
 #method 2 
 # n=input("enter the string:")
 # left=0
@@ -92,4 +92,4 @@
 #         seen.append(ch) 
 
 # result="".join(seen)
-# print(result)
+# print(result)####################################
