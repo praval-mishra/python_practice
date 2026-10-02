@@ -92,4 +92,53 @@
 #         seen.append(ch) 
 
 # result="".join(seen)
-# print(result)####################################
+# print(result)
+
+#-----------------------------------------
+# problem 23 Anagram check 
+# s1=input("enter the frist string:").lower().replace(' ','')
+# s2=input("enter the frist string:").lower().replace(' ','')
+# if len(s1)!=len(s2):
+#   print("not an anagram")
+# else :
+#   freq1={}
+#   for ch in s1 :
+#     freq1[ch]=freq1.get(ch,0)+1
+#   freq2={}
+#   for ch in s2:
+#     freq2[ch]=freq2.get(ch,0)+1
+
+
+
+# print(freq1,freq2)
+# if freq1==freq2:
+#   print("Its an anagram ")
+# else : print("Not an anagram ")
+#################################
+#method 2 
+# s1=input("enter the frist string:").lower().replace(' ','')
+# s2=input("enter the frist string:").lower().replace(' ','')
+# if sorted(s1)==sorted(s2):
+#     print("its an anagram")
+# else : print("its not an anagram")
+#------------------------------------------------------------------
+
+
+#Problem 24: Capitalize Each Word
+# s1=input("enter the frist string:")
+# result=[]
+# for ch in s1.split():
+#    ch=ch[0].upper()+ch[1:] 
+#    result.append(ch)
+# output=" ".join (result)
+# print(output)
+#----------------------------------------------------------------------
+##Problem 25: Count Words in a Sentence
+# s1=input("enter the frist string:")
+# count =0
+# for ch in s1.split():
+#   if ch.isalpha():
+#     count+=1
+# print(count)  
+#-------------------------------------------------------------------
+#Problem 26: Most Frequent Character
