@@ -142,3 +142,32 @@
 # print(count)  
 #-------------------------------------------------------------------
 #Problem 26: Most Frequent Character
+# s1=input("enter the frist string:")
+# count={}
+# for ch in s1.lower():
+#   if ch==" ":
+#     continue 
+#   elif ch in count:
+#     count[ch]+=1
+#   else :
+#     count[ch]=1
+# print([k for k,v in count.items() if v==max(count.values())])
+# print(f"the max count is ",max(count.values()))
+#-------------------------------------------------------------------------
+#Problem 27: Find the Largest and Smallest Elements in a List
+# lst=[]
+# for i in range(5):
+#   val=int(input("enter the values : "))
+#   lst.append(val)
+# maxi=lst[0]
+# mini=lst[0]
+
+# for i in lst :
+#   if i>maxi:
+#     maxi=i
+#   if i<mini:\
+#     mini=i
+# print("maximum",maxi)
+# print("minimum",mini)
+#-------------------------------------------------------------------------
+#problem 28 to find the second largest 
