@@ -171,3 +171,58 @@
 # print("minimum",mini)
 #-------------------------------------------------------------------------
 #problem 28 to find the second largest 
+
+# lst=[]
+# for i in range(5):
+#     val= int(input("enter the list element:"))
+#     lst.append(val)
+# maxi=lst[0]
+# s=None
+# for i in lst:
+#     if i>maxi:
+#         s=maxi
+#         maxi=i
+#     elif s is None or i>s:
+#         s=i 
+# print("the largest number is : ",maxi)
+# print("the second largest No. is : ",s)
+
+#-------------------------------------------------------------------
+
+#Problem 29: Sum and Average of a List.
+# lst=[]
+# total=0
+# for i in range(5):
+#     val =int(input("enter the value "))
+#     lst.append(val)
+# for i in range (len(lst)) :
+#     total+= lst[i]
+# print("the sum of list items :",total)
+# print("thr average is : ",total/len(lst))
+#-------------------------------------------------------------
+
+#Problem 30: Reverse a List Without Using [::-1]
+# lst=[]
+# rev=[]
+# for i in range(5):
+#     val =int(input("enter the value "))
+#     lst.append(val)
+# for i in range (len(lst)-1,-1,-1) :
+#     rev.append(lst[i])
+# print("the reveresed list is  :",rev)
+
+#--------------------------------------------------------------------
+
+#Problem 31: Remove Duplicates From a List While Preserving Order
+
+# lst=[]
+# seen=[]
+# for i in range(5):
+#     val =int(input("enter the value "))
+#     lst.append(val)
+# for i in lst:
+#   if i in seen:
+#     continue 
+#   else :
+#     seen.append(i)
+# print(seen)
